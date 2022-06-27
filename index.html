@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Startup</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- Your own stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="container d-flex align-items-center h-100">
+      <!-- d-flex: enable flexbox -->
+      <!-- https://getbootstrap.com/docs/4.3/utilities/flex/ -->
+      <!-- container is not the full page 
+      expand entire page height: h-100 --> 
+      <div class="row">
+        <!-- wrap the rows -->
+        <header class="text-center col-12">
+        <!-- cl-12: expand or contain along the column -->
+          <h1 class="text-uppercase"><strong>The biggest startup event of the year</strong></h1>
+        </header>
+        <div class="buffer col-12"></div>
+        <!-- give a buffer space in between -->
+        <section class="text-center col-12">
+          <hr>
+          <!-- horizontal line -->
+          <a href="https://mailchi.mp/63fb1fdebac9/happy_chiu">
+            <!-- defines a hyperlink -->
+            <button class="btn btn-light btn-xl">find out more</button>
+          </a>
+          <!-- https://getbootstrap.com/docs/5.2/components/buttons/#content -->
+          <!-- create own class btn-xl  -->
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
